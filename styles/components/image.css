@@ -1,0 +1,51 @@
+@media only screen and (min-width: 480px) {
+  .profile-intro-avatar__image {
+    width: 60%;
+    height: 60%;
+  }
+
+  .profile-intro-avatar {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../img/webp/cats_768.webp);
+    background-repeat: no-repeat;
+  }
+  .banner {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .profile_pic {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile-intro-avatar {
+    background-image: url(../../img/webp/cats_992.webp);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .profile-intro-avatar {
+    background-image: url(../../img/webp/cats_1200.webp);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile-intro-avatar {
+    background-image: url(../../img/webp/cats_1600.webp);
+  }
+  .profile-intro-avatar__image {
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .profile-intro-avatar {
+    background-image: url(../../img/webp/cats_1920.webp);
+  }
+}

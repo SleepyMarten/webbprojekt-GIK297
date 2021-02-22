@@ -1,0 +1,61 @@
+.profile-intro-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.profile-about__container {
+  max-width: 470px;
+  font-size: 2rem;
+}
+
+.profile-about__heading {
+  text-align: left;
+  border-bottom: solid 2px lightblue;
+  max-width: 200px;
+  margin-left: 1rem;
+}
+
+.profile-about {
+  margin-bottom: 5rem;
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+}
+
+.profile-about__text {
+  padding: 0 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  .profile-about {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile-about {
+    max-width: 768px;
+  }
+  .profile-about__container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .profile-about {
+    max-width: 992px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .profile-about {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+  }
+
+  .profile-about__container {
+    max-width: 1200px;
+    font-size: 2rem;
+  }
+}
